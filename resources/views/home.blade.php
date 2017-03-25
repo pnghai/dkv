@@ -2,7 +2,7 @@
 
 @extends('layouts.app')
 
-@section('title', 'Welcome to DKV')
+@section('title', 'Homepage')
 
 @section('content')
     <p>This is my body content.</p>
