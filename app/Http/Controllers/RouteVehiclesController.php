@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class LocationController extends Controller {
+class RouteVehiclesController extends Controller {
 
   /**
    * Display a listing of the resource.
