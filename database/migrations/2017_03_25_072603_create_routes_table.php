@@ -9,11 +9,12 @@ class CreateRoutesTable extends Migration {
 	{
 		Schema::create('routes', function(Blueprint $table) {
 			$table->increments('id');
-			$table->timestamps();
-			$table->softDeletes();
+			$table->string('name');
+			$table->float('cost');
 			$table->integer('source')->unsigned()->nullable();
 			$table->integer('target')->unsigned()->nullable();
-			$table->float('cost');
+			$table->timestamps();
+			$table->softDeletes();
 		});
 	}
 
