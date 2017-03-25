@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('locations', 'LocationController');
-Route::resource('locationtypes', 'LocationTypeController');
-Route::resource('routes', 'RouteController');
+// Admin Interface Routes
+Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
+{
+	// Backpack\CRUD: Define the resources for the entities you want to CRUD.
+	CRUD::resource('location', 'Admin\LocationCrudController');
+	CRUD::resource('locationtype', 'Admin\LocationTypeCrudController');
+	CRUD::resource('route', 'Admin\RouteCrudController');
+	CRUD::resource('routevehicle', 'Admin\RouteVehicleCrudController');
+
+	// [...] other routes
+});
+
+Route::resource('location', 'LocationController');
+Route::resource('locationtype', 'LocationTypeController');
+Route::resource('route', 'RouteController');
