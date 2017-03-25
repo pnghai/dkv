@@ -177,6 +177,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 	    Orangehill\Iseed\IseedServiceProvider::class,
+	    Backpack\Base\BaseServiceProvider::class,
+	    Backpack\CRUD\CrudServiceProvider::class,
 
     ],
 
