@@ -11,12 +11,17 @@
 |
 */
 
-Route::get('/', function()
+Route::get('/', 'HomeController@index');
+Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
 {
-	return View::make('hello');
+	// Backpack\CRUD: Define the resources for the entities you want to CRUD.
+	CRUD::resource('location', 'Admin\LocationCrudController');
+	CRUD::resource('locationtype', 'Admin\LocationTypesCrudController');
+	CRUD::resource('route', 'Admin\RoutesCrudController');
+	CRUD::resource('routevehicle', 'Admin\RouteVehiclesCrudController');
+
+	// [...] other routes
 });
-
-
 Route::resource('location', 'LocationController');
 Route::resource('locationtype', 'LocationTypeController');
 Route::resource('route', 'RouteController');
