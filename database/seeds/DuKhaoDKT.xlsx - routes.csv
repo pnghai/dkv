@@ -1,0 +1,228 @@
+source,source_name,target,target_name,distance,name,source_location_type_id,target_location_type,,
+182,TP. Hồ Chí Minh,1,Tân An,47,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,2,Mỹ Tho,75,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,3,Vĩnh Long,136,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,4,Cần Thơ,166,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,5,Sóc Trăng,226,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,6,Bạc Liêu,276,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,7,Cà Mau,345,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,8,Năm Căn,395,1A,TP,Thị Trấn,2,1
+182,TP. Hồ Chí Minh,9,Biên Hòa ,30,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,10,Phan Thiết,196,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,11,Phan Rang - Tháp Chàm,345,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,12,Nha Trang ,446,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,13,Tuy Hòa ,570,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,14,Quy Nhơn,670,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,15,Quảng Ngãi,858,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,16,Tam Kỳ ,923,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,17,Đà Nẵng ,977,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,18,Huế ,1075,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,19,Đông Hà ,1142,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,20,Đồng Hới,1237,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,21,Hà Tĩnh ,1387,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,22,Vinh,1437,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,23,Thanh Hóa,1575,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,24,Ninh Bình,1635,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,25,Phủ Lý,1669,1A,TP,TP,1,1
+182,TP. Hồ Chí Minh,26,Hà Nội ,1727,1A,TP,Thủ Đô,3,1
+47,Hà Nội,27,Bắc Ninh,39,1A,Thủ Đô,TP,1,3
+47,Hà Nội,28,Bắc Giang,57,1A,Thủ Đô,TP,1,3
+47,Hà Nội,29,Lạng Sơn,160,1A,Thủ Đô,TP,1,3
+47,Hà Nội,30,Đồng Đăng,175,1A,Thủ Đô,Thị Trấn,2,3
+182,TP. Hồ Chí Minh,31,Thủ Dầu Một,30,QL 13,,TP,1,#N/A
+182,TP. Hồ Chí Minh,32,Chơn Thành,83,QL 13,,Thị Trấn,2,#N/A
+182,TP. Hồ Chí Minh,33,Đồng Xoài,102,HCM,,Thị Xã,4,#N/A
+182,TP. Hồ Chí Minh,34,Gia Nghĩa,220,HCM,,Thị Xã,4,#N/A
+182,TP. Hồ Chí Minh,35,Buôn Ma Thuột,355,HCM,,TP,1,#N/A
+182,TP. Hồ Chí Minh,36,Plei Ku,543,HCM,,TP,1,#N/A
+182,TP. Hồ Chí Minh,37,Kon Tum,590,HCM,,TP,1,#N/A
+182,TP. Hồ Chí Minh,38,Ngọc Hồi ,659,HCM,,Huyện,5,#N/A
+182,TP. Hồ Chí Minh,39,Khâm Đức ,778,HCM,,Thị Trấn,2,#N/A
+182,TP. Hồ Chí Minh,40,Thạnh Mỹ,830,HCM,,Thị Trấn,2,#N/A
+182,TP. Hồ Chí Minh,41,A Lưới ,987,HCM,,Thị Trấn,2,#N/A
+182,TP. Hồ Chí Minh,42,Khe Sanh,1098,HCM,,Thị Trấn,2,#N/A
+182,TP. Hồ Chí Minh,43,Xuân Sơn,1275,HCM,,Chưa xác định,6,#N/A
+182,TP. Hồ Chí Minh,44,Hương Khê,1410,HCM,,Thị Trấn,2,#N/A
+182,TP. Hồ Chí Minh,45,Tân Kỳ,1546,HCM,,Thị Trấn,2,#N/A
+182,TP. Hồ Chí Minh,46,Lam Sơn,1666,HCM,,Chưa xác định,6,#N/A
+182,TP. Hồ Chí Minh,47,Hà Nội,1848,HCM; QL 6,,Thủ Đô,3,#N/A
+47,Hà Nội,48,Hòa Bình,73,QL 6,,TP,1,#N/A
+47,Hà Nội,49,Sơn La ,305,QL 6,,TP,1,#N/A
+47,Hà Nội,50,Điện Biên Phủ,468,QL 6; QL 279,,TP,1,#N/A
+47,Hà Nội,51,Lai Châu,437,QL 32; QL 4D,,TP,1,#N/A
+47,Hà Nội,52,Vĩnh Yên,53,QL 2,,TP,1,#N/A
+47,Hà Nội,53,Việt Trì,77,QL 2,,TP,1,#N/A
+47,Hà Nội,54,Tuyên Quang,156,QL 2,,TP,1,#N/A
+47,Hà Nội,55,Hà Giang,307,QL 2,,TP,1,#N/A
+185,Vĩnh Yên ,56,Tam Đảo,25,QL 2B,TP,Thị Trấn,2,1
+185,Vĩnh Yên ,57,Sân Bay Nội Bài,25,QL 2A,TP,Sân Bay,7,1
+185,Vĩnh Yên ,58,Sơn Dương,62,QL 2C,TP,Thị Trấn,2,1
+53,Việt Trì,59,Đoan Hùng,40,QL 2,TP,Thị Trấn,2,1
+59,Đoan Hùng,54,Tuyên Quang,26,QL 2,Thị Trấn,TP,1,2
+54,Tuyên Quang,60,Bơ,30,QL 2,TP,Chưa xác định,6,1
+60,Bơ,61,Vĩnh Tuy,42,QL 2,Chưa xác định,Thị Trấn,2,6
+61,Vĩnh Tuy,62,Việt Quang,27,QL 2,Thị Trấn,Thị Trấn,2,2
+62,Việt Quang,63,Tân Quang,7,QL 2,Thị Trấn,Xã,8,2
+63,Tân Quang,64,Vị Xuyên,22,QL 2,Xã,Thị Trấn,2,8
+64,Vị Xuyên,55,Hà Giang,23,QL 2,Thị Trấn,TP,1,2
+55,Hà Giang,65,Quản Bạ ,45,QL 4C,TP,Huyện,5,1
+183,Quản Bạ,66,Yên Minh ,50,QL 4C,Huyện,Thị Trấn,2,5
+184,Yên Minh,67,Phó Bảng,20,QL 4C,Thị Trấn,Thị Trấn,2,2
+184,Yên Minh,68,Đồng Văn,45,QL 4C,Thị Trấn,Thị Trấn,2,2
+68,Đồng Văn,69,Lũng Cú,26,CC QG,Thị Trấn,Điểm Cực Bắc,9,2
+68,Đồng Văn,70,Mèo Vạc,25,QL 4C,Thị Trấn,Thị Trấn,2,2
+70,Mèo Vạc,71,Xín Cái + CK Săm Pun,18,193A,Thị Trấn,Xã,8,2
+70,Mèo Vạc,72,Khâu Vai,22,ĐT 217,Thị Trấn,Xã,8,2
+72,Khâu Vai,73,Cốc Pàng,16,ĐT 217,Xã,Xã,8,8
+73,Cốc Pàng,74,Bảo Lạc,26,ĐT 217,Xã,Thị Trấn,2,8
+55,Hà Giang,75,Minh Ngọc,32,QL 34,TP,Xã,8,1
+75,Minh Ngọc,76,Du Già,37,ĐT 176,Xã,Xã,8,8
+186,Du Già ,77,Mậu Duệ,40,ĐT 176,Xã,Xã,8,8
+77,Mậu Duệ,66,Yên Minh ,10,ĐT 182,Xã,Thị Trấn,2,8
+77,Mậu Duệ,78,Lũng Phìn,22,ĐT 176,Xã,Xã,8,8
+78,Lũng Phìn,70,Mèo Vạc,15,ĐT 182,Xã,Thị Trấn,2,8
+75,Minh Ngọc,79,Bắc Mê,25,QL 34,Xã,Chưa xác định,6,8
+79,Bắc Mê,80,Bảo Lâm,36,QL 34,Chưa xác định,Chưa xác định,6,6
+80,Bảo Lâm,74,Bảo Lạc,22,QL 34,Chưa xác định,Thị Trấn,2,6
+79,Bắc Mê,81,Đà Vị,50,ĐT 176,Chưa xác định,Xã,8,6
+80,Bảo Lâm,70,Mèo Vạc,50,QL 4C,Chưa xác định,Thị Trấn,2,6
+74,Bảo Lạc,82,Tĩnh Túc,75,QL 34,Thị Trấn,Thị Trấn,2,2
+82,Tĩnh Túc,83,Nguyên Bình,15,QL 34,Thị Trấn,Thị Trấn,2,2
+83,Nguyên Bình,84,Cao Bằng,45,QL 34,Thị Trấn,TP,1,2
+62,Việt Quang,85,Na Hang,85,QL 279,Thị Trấn,Thị Trấn,2,2
+85,Na Hang,81,Đà Vị,23,QL 279,Thị Trấn,Xã,8,2
+81,Đà Vị,86,Chợ Rã,32,QL 279,Xã,Thị Trấn,2,8
+86,Chợ Rã,87,Hà Hiệu,22,QL 279,Thị Trấn,Xã,8,2
+87,Hà Hiệu,82,Tĩnh Túc,53,ĐT 212,Xã,Thị Trấn,2,8
+87,Hà Hiệu,88,Nà Phặc,10,QL 279,Thị Trấn,Thị Trấn,2,2
+88,Nà Phặc,89,Ngân Sơn,18,QL 3,Thị Trấn,Thị Trấn,2,2
+89,Ngân Sơn,84,Cao Bằng,65,QL 3,Thị Trấn,TP,1,2
+88,Nà Phặc,90,Na Rì,75,QL 279,Thị Trấn,Huyện,5,2
+90,Na Rì,91,Bình Gia,70,QL 279,Huyện,Thị Trấn,2,5
+91,Bình Gia,92,Văn Quan,29,QL 279,Thị Trấn,Thị Trấn,2,2
+92,Văn Quan,93,Chi Lăng,29,QL 279,Thị Trấn,Huyện,5,2
+93,Chi Lăng,94,An Châu,70,QL 279,Huyện,Xã,8,5
+94,An Châu,95,Hạ Long,68,QL 279,Xã,TP,1,8
+187,Cao Bằng ,96,Đôn Chương,47,ĐT 203,TP,Ngã Ba,10,1
+96,Đôn Chương,97,Pác Bó,9,ĐT 203,Ngã Ba,Di tích,11,10
+96,Đôn Chương,98,CK. Sóc Giang,8,,Ngã Ba,Cửa Khẩu,12,10
+96,Đôn Chương,99,Trà Lĩnh,43,ĐT 210,Ngã Ba,Huyện,5,10
+99,Trà Lĩnh,100,Trùng Khánh,27,ĐT 210,Huyện,Thị Trấn,2,5
+100,Trùng Khánh,101,Thác Bản Giốc,26,ĐT 206,Thị Trấn,Điểm Du Lịch,13,2
+101,Thác Bản Giốc,102,Bằng Ca,13,ĐT 206,Điểm Du Lịch,Xã,8,13
+102,Bằng Ca,103,Hạ Lang,28,ĐT 206,Xã,Huyện,5,8
+103,Hạ Lang,104,Quảng Uyên,33,ĐT 206,Huyện,Thị Trấn,2,5
+104,Quảng Uyên,84,Cao Bằng,37,QL 3,Thị Trấn,TP,1,2
+104,Quảng Uyên,100,Trùng Khánh,27,ĐT 206,Thị Trấn,Thị Trấn,2,2
+104,Quảng Uyên,105,Na Rài,24,QL 3,Thị Trấn,Chưa xác định,6,2
+105,Na Rài,106,CK. Tà Lung,11,QL 3,Chưa xác định,Cửa Khẩu,12,6
+105,Na Rài,107,Đông Khê,24,ĐT 208,Chưa xác định,Thị Trấn,2,6
+107,Đông Khê,84,Cao Bằng,43,QL 4A,Thị Trấn,TP,1,2
+107,Đông Khê,108,Thất Khê,23,QL 4A,Thị Trấn,Thị Trấn,2,2
+108,Thất Khê,109,Na Sầm ,40,QL 4A,Thị Trấn,Thị Trấn,2,2
+108,Thất Khê,90,Na Rì,45,QL 3B,Thị Trấn,Huyện,5,2
+108,Thất Khê,91,Bình Gia,48,QL 1B,Thị Trấn,Thị Trấn,2,2
+109,Na Sầm ,30,Đồng Đăng,16,QL 4A,Thị Trấn,Thị Trấn,2,2
+30,Đồng Đăng,110,CK. Hữu Nghị,3,QL 1A,Thị Trấn,Cửa Khẩu,12,2
+30,Đồng Đăng,29,Lạng Sơn,15,QL 1A,Thị Trấn,TP,1,2
+29,Lạng Sơn,93,Chi Lăng,35,QL 1A,TP,Huyện,5,1
+29,Lạng Sơn,111,Lộc Bình,22,QL 4B,TP,Thị Trấn,2,1
+111,Lộc Bình,112,CK. Chi Ma,15,ĐT 236,Thị Trấn,Cửa Khẩu,12,2
+111,Lộc Bình,113,Đình Lập,33,QL 4B,Thị Trấn,Thị Trấn,2,2
+113,Đình Lập,114,Tiên Yên,45,QL 4B,Thị Trấn,Thị Trấn,2,2
+113,Đình Lập,94,An Châu,48,QL 31,Thị Trấn,Xã,8,2
+114,Tiên Yên,115,CK.Hoàng Mô,45,QL 18C,Thị Trấn,Cửa Khẩu,12,2
+114,Tiên Yên,95,Hạ Long,81,QL 18,Thị Trấn,TP,1,2
+114,Tiên Yên,116,Móng Cái,85,QL 18,Thị Trấn,TP,1,2
+93,Chi Lăng,117,Kép,50,QL 1A,Huyện,Thị Trấn,2,5
+117,Kép,28,Bắc Giang,18,QL 1A,Thị Trấn,TP,1,2
+117,Kép,118,Lục Nam,20,QL 37,Thị Trấn,Huyện,5,2
+117,Kép,119,Thái Nguyên,55,ĐT 265,Thị Trấn,TP,1,2
+118,Lục Nam,28,Bắc Giang,22,QL 31,Huyện,TP,1,5
+118,Lục Nam,120,Lục Ngạn,21,QL 31,Huyện,Huyện,5,5
+118,Lục Nam,121,Chí Linh,26,QL 37,Huyện,Thị Xã,4,5
+120,Lục Ngạn,94,An Châu,32,QL 31,Huyện,Thị Trấn,2,5
+121,Chí Linh,27,Bắc Ninh,38,QL 18,Thị Xã,TP,1,4
+121,Chí Linh,122,Nam Sách ,20,QL 37,Thị Xã,Thị Trấn,2,4
+121,Chí Linh,123,Uông Bí,43,QL 18,Thị Xã,TP,1,4
+123,Uông Bí,95,Hạ Long,45,QL 18,TP,TP,1,1
+123,Uông Bí,124,An Lão,35,QL 10,TP,Thị Trấn,2,1
+188,Nam Sách,125,Tiền Trung,3,QL 37,Thị Trấn,Chưa xác định,6,2
+125,Tiền Trung,126,Hải Dương,65,QL 5,Chưa xác định,TP,1,6
+125,Tiền Trung,127,Hải Phòng,40,QL 5,Chưa xác định,TP,1,6
+127,Hải Phòng,128,Đồ Sơn,20,ĐT 353,TP,Điểm Du Lịch,13,1
+127,Hải Phòng,124,An Lão,15,ĐT 360,TP,Thị Trấn,2,1
+124,An Lão,129,Thái Bình (mồ hôi rơi),50,QL 10,Thị Trấn,TP,1,2
+189,Thái Bình,130,Đồng Châu,30,QL 39B,TP,Điểm Du Lịch,13,1
+189,Thái Bình,131,Nam Định,23,QL 10,TP,TP,1,1
+131,Nam Định,132,Thịnh Long,52,???,TP,Điểm Du Lịch,13,1
+131,Nam Định,25,Phủ Lý,32,QL 21,TP,TP,1,1
+131,Nam Định,24,Ninh Bình,30,QL 10,TP,TP,1,1
+59,Đoan Hùng,133,Làng Đát,34,QL 70,Huyện,Chưa xác định,6,5
+133,Làng Đát,134,Yên Bái,8,QL 37,Chưa xác định,TP,1,6
+133,Làng Đát,135,Khánh Hòa,64,QL 70,Chưa xác định,Xã,8,6
+135,Khánh Hòa,136,Lục Yên,25,ĐT 152,Xã,Huyện,5,8
+136,Lục Yên,61,Vĩnh Tuy,20,ĐT 152,Huyện,Thị Trấn,2,5
+135,Khánh Hòa,137,Phố Ràng,26,QL 70,Xã,Thị Trấn,2,8
+137,Phố Ràng,138,Yên Bình,40,QL 279,Thị Trấn,Xã,8,2
+138,Yên Bình,62,Việt Quang,31,QL 279,Xã,Thị Trấn,2,8
+137,Phố Ràng,139,Bắc Ngầm,36,QL 70,Thị Trấn,Thôn,14,2
+139,Bắc Ngầm,140,Lào Cai,40,QL 70,Thôn,TP,1,14
+139,Bắc Ngầm,141,Bắc Hà,26,ĐT 153,Thôn,Huyện,5,14
+141,Bắc Hà,78,Lũng Phìn,10,ĐT 153,Huyện,Xã,8,5
+78,Lũng Phìn,142,Xín Mần,40,???,Xã,Huyện,5,8
+142,Xín Mần,143,Hoàng Su Phì,40,ĐT 177,Huyện,Huyện,5,5
+143,Hoàng Su Phì,63,Tân Quang,60,ĐT 177,Huyện,Xã,8,5
+78,Lũng Phìn,144,Si Ma Cai,18,ĐT 153,Xã,Huyện,5,8
+144,Si Ma Cai,145,Pha Long,20,ĐT 153,Huyện,Xã,8,5
+145,Pha Long,146,Mường Khương,25,ĐT 153,Xã,Huyện,5,8
+146,Mường Khương,140,Lào Cai,53,QL 4D,Huyện,TP,1,5
+140,Lào Cai,147,Sa Pa ,37,QL 4D,TP,Thị Trấn,2,1
+147,Sa Pa ,148,Bản Xèo,28,ĐT 155,Thị Trấn,Xã,8,2
+148,Bản Xèo,149,Y Tý,32,ĐT 158,Xã,Xã,8,8
+149,Y Tý,150,A Mú Sung,36,ĐT 158,Xã,Xã,8,8
+150,A Mú Sung,151,Bát Xát,43,ĐT 156,Xã,Huyện,5,8
+151,Bát Xát,140,Lào Cai,19,ĐT 156,Huyện,TP,1,5
+147,Sa Pa ,152,Bình Lư,40,QL 4D,Thị Trấn,Xã,8,2
+152,Bình Lư,153,Tân Uyên,30,QL 32,Xã,Huyện,5,8
+152,Bình Lư,51,Lai Châu,34,QL 4D,Xã,TP,1,8
+153,Tân Uyên,154,Than Uyên,30,QL 32,Huyện,Thị Trấn,2,5
+154,Than Uyên,155,Văn Bàn,58,QL 279,Thị Trấn,Huyện,5,2
+155,Văn Bàn,137,Phố Ràng,36,QL 279,Huyện,Thị Trấn,2,5
+154,Than Uyên,156,Quỳnh Nhai,68,QL 279,Thị Trấn,Huyện,5,2
+156,Quỳnh Nhai,157,Minh Thắng,27,QL 279,Huyện,Xã,8,5
+156,Quỳnh Nhai,158,Sơn La,58,ĐT 107,Huyện,TP,1,5
+157,Minh Thắng,159,Tuần Giáo,7,QL 279,Xã,Thị Trấn,2,8
+157,Minh Thắng,160,Mường Lay,97,QL 6,Xã,Thị Trấn,2,8
+159,Tuần Giáo,161,Thuận Châu,50,QL 6,Thị Trấn,Thị Trấn,2,2
+161,Thuận Châu,158,Sơn La,28,QL 6,Thị Trấn,TP,1,2
+160,Mường Lay,162,Mường Chà,43,QL 12,Thị Trấn,Thị Trấn,2,2
+160,Mường Lay,163,Sìn Hồ,65,QL 12,Thị Trấn,Huyện,5,2
+160,Mường Lay,164,Mường Tè,98,ĐT 127,Thị Trấn,Thị Trấn,2,2
+163,Sìn Hồ,51,Lai Châu,60,QL 4D,Huyện,TP,1,5
+51,Lai Châu,165,Phong Thổ,30,QL 4D,TP,Thị Trấn,2,1
+165,Phong Thổ,166,CK. Ma Lù Thàng,20,QL 12,Thị Trấn,Cửa Khẩu,12,2
+165,Phong Thổ,167,Pa Tần,14,QL 12,Thị Trấn,Xã,8,2
+167,Pa Tần,166,CK. Ma Lù Thàng,21,???,Xã,Cửa Khẩu,12,8
+167,Pa Tần,160,Mường Lay,60,QL 12,Xã,Thị Trấn,2,8
+167,Pa Tần,164,Mường Tè,70,M Tè - Pa Tần,Xã,Thị Trấn,2,8
+164,Mường Tè,168,Pác Ma,50,???,Thị Trấn,Chưa xác định,6,2
+168,Pác Ma,169,Chung Chải,70,???,Chưa xác định,Xã,8,6
+169,Chung Chải,170,A Pa Chải,30,???,Xã,Điểm Cực Tây,15,8
+169,Chung Chải,171,Mường Nhé,20,???,Xã,Thị Trấn,2,8
+171,Mường Nhé,172,Chà Cang,80,???,Thị Trấn,Xã,8,2
+172,Chà Cang,162,Mường Chà,60,???,Xã,Thị Trấn,2,8
+162,Mường Chà,160,Mường Lay,43,QL 12,Thị Trấn,Thị Trấn,2,2
+162,Mường Chà,50,Điện Biên Phủ,52,QL 12,Thị Trấn,TP,1,2
+50,Điện Biên Phủ,159,Tuần Giáo,80,QL 279,TP,Thị Trấn,2,1
+50,Điện Biên Phủ,173,Mường Phăng,36,???,TP,Di Tích,11,1
+50,Điện Biên Phủ,174,Điện Biên Đông,48,ĐT 130,TP,Huyện,5,1
+174,Điện Biên Đông,175,Sông Mã,98,ĐT 130 - ĐT 115,Huyện,Thị Trấn,2,5
+175,Sông Mã,176,Chiềng Khương,32,QL 4G,Thị Trấn,Xã,8,2
+176,Chiềng Khương,158,Sơn La,68,QL 4G,Xã,TP,1,8
+49,Sơn La ,177,Ngã Ba Cò Nòi,45,QL 6,TP,Địa Danh,17,1
+177,Ngã Ba Cò Nòi,178,Mộc Châu,75,QL 6,Địa Danh,Huyện,5,17
+178,Mộc Châu,179,Mai Châu,60,QL 6,Huyện,Huyện,5,5
+179,Mai Châu,180,Tân Lạc,35,QL 6,Huyện,Huyện,5,5
+180,Tân Lạc,48,Hòa Bình,30,QL 6,Huyện,TP,1,5
+48,Hòa Bình,181,Xuân Mai,37,QL 6,TP,Thị Trấn,2,1

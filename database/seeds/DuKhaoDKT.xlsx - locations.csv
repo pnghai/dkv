@@ -1,0 +1,190 @@
+name,id,location_type_id
+Tân An,1,1
+Mỹ Tho,2,1
+Vĩnh Long,3,1
+Cần Thơ,4,1
+Sóc Trăng,5,1
+Bạc Liêu,6,1
+Cà Mau,7,1
+Năm Căn,8,2
+Biên Hòa ,9,1
+Phan Thiết,10,1
+Phan Rang - Tháp Chàm,11,1
+Nha Trang ,12,1
+Tuy Hòa ,13,1
+Quy Nhơn,14,1
+Quảng Ngãi,15,1
+Tam Kỳ ,16,1
+Đà Nẵng ,17,1
+Huế ,18,1
+Đông Hà ,19,1
+Đồng Hới,20,1
+Hà Tĩnh ,21,1
+Vinh,22,1
+Thanh Hóa,23,1
+Ninh Bình,24,1
+Phủ Lý,25,1
+Hà Nội ,26,3
+Bắc Ninh,27,1
+Bắc Giang,28,1
+Lạng Sơn,29,1
+Đồng Đăng,30,2
+Thủ Dầu Một,31,1
+Chơn Thành,32,2
+Đồng Xoài,33,4
+Gia Nghĩa,34,4
+Buôn Ma Thuột,35,1
+Plei Ku,36,1
+Kon Tum,37,1
+Ngọc Hồi ,38,5
+Khâm Đức ,39,2
+Thạnh Mỹ,40,2
+A Lưới ,41,2
+Khe Sanh,42,2
+Xuân Sơn,43,6
+Hương Khê,44,2
+Tân Kỳ,45,2
+Lam Sơn,46,6
+Hà Nội,47,3
+Hòa Bình,48,1
+Sơn La ,49,1
+Điện Biên Phủ,50,1
+Lai Châu,51,1
+Vĩnh Yên,52,1
+Việt Trì,53,1
+Tuyên Quang,54,1
+Hà Giang,55,1
+Tam Đảo,56,2
+Sân Bay Nội Bài,57,7
+Sơn Dương,58,2
+Đoan Hùng,59,2
+Bơ,60,6
+Vĩnh Tuy,61,2
+Việt Quang,62,2
+Tân Quang,63,8
+Vị Xuyên,64,2
+Quản Bạ ,65,5
+Yên Minh ,66,2
+Phó Bảng,67,2
+Đồng Văn,68,2
+Lũng Cú,69,9
+Mèo Vạc,70,2
+Xín Cái + CK Săm Pun,71,8
+Khâu Vai,72,8
+Cốc Pàng,73,8
+Bảo Lạc,74,2
+Minh Ngọc,75,8
+Du Già,76,8
+Mậu Duệ,77,8
+Lũng Phìn,78,8
+Bắc Mê,79,6
+Bảo Lâm,80,6
+Đà Vị,81,8
+Tĩnh Túc,82,2
+Nguyên Bình,83,2
+Cao Bằng,84,1
+Na Hang,85,2
+Chợ Rã,86,2
+Hà Hiệu,87,8
+Nà Phặc,88,2
+Ngân Sơn,89,2
+Na Rì,90,5
+Bình Gia,91,2
+Văn Quan,92,2
+Chi Lăng,93,5
+An Châu,94,8
+Hạ Long,95,1
+Đôn Chương,96,10
+Pác Bó,97,11
+CK. Sóc Giang,98,12
+Trà Lĩnh,99,5
+Trùng Khánh,100,2
+Thác Bản Giốc,101,13
+Bằng Ca,102,8
+Hạ Lang,103,5
+Quảng Uyên,104,2
+Na Rài,105,6
+CK. Tà Lung,106,12
+Đông Khê,107,2
+Thất Khê,108,2
+Na Sầm ,109,2
+CK. Hữu Nghị,110,12
+Lộc Bình,111,2
+CK. Chi Ma,112,12
+Đình Lập,113,2
+Tiên Yên,114,2
+CK.Hoàng Mô,115,12
+Móng Cái,116,1
+Kép,117,2
+Lục Nam,118,5
+Thái Nguyên,119,1
+Lục Ngạn,120,5
+Chí Linh,121,4
+Nam Sách ,122,2
+Uông Bí,123,1
+An Lão,124,2
+Tiền Trung,125,6
+Hải Dương,126,1
+Hải Phòng,127,1
+Đồ Sơn,128,13
+Thái Bình (mồ hôi rơi),129,1
+Đồng Châu,130,13
+Nam Định,131,1
+Thịnh Long,132,13
+Làng Đát,133,6
+Yên Bái,134,1
+Khánh Hòa,135,8
+Lục Yên,136,5
+Phố Ràng,137,2
+Yên Bình,138,8
+Bắc Ngầm,139,14
+Lào Cai,140,1
+Bắc Hà,141,5
+Xín Mần,142,5
+Hoàng Su Phì,143,5
+Si Ma Cai,144,5
+Pha Long,145,8
+Mường Khương,146,5
+Sa Pa ,147,2
+Bản Xèo,148,8
+Y Tý,149,8
+A Mú Sung,150,8
+Bát Xát,151,5
+Bình Lư,152,8
+Tân Uyên,153,5
+Than Uyên,154,2
+Văn Bàn,155,5
+Quỳnh Nhai,156,5
+Minh Thắng,157,8
+Sơn La,158,1
+Tuần Giáo,159,2
+Mường Lay,160,2
+Thuận Châu,161,2
+Mường Chà,162,2
+Sìn Hồ,163,5
+Mường Tè,164,2
+Phong Thổ,165,2
+CK. Ma Lù Thàng,166,12
+Pa Tần,167,8
+Pác Ma,168,6
+Chung Chải,169,8
+A Pa Chải,170,15
+Mường Nhé,171,2
+Chà Cang,172,8
+Mường Phăng,173,11
+Điện Biên Đông,174,5
+Sông Mã,175,2
+Chiềng Khương,176,8
+Ngã Ba Cò Nòi,177,17
+Mộc Châu,178,5
+Mai Châu,179,5
+Tân Lạc,180,5
+Xuân Mai,181,2
+TP. Hồ Chí Minh,182,1
+Quản Bạ,183,5
+Yên Minh,184,2
+Vĩnh Yên ,185,1
+Du Già ,186,8
+Cao Bằng ,187,1
+Nam Sách,188,2
+Thái Bình,189,1
