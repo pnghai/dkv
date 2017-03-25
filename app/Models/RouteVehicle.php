@@ -6,7 +6,7 @@ use Backpack\CRUD\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class RouteVehicles extends Model {
+class RouteVehicle extends Model {
 
 	use CrudTrait;
 	protected $table = 'route_vehicles';
