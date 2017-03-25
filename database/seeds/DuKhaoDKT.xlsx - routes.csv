@@ -1,4 +1,4 @@
-source,source_name,target,target_name,distance,name,source_location_type_id,target_location_type,,
+source,source_name,target,target_name,cost,name,source_location_type_id,target_location_type,,
 182,TP. Hồ Chí Minh,1,Tân An,47,1A,TP,TP,1,1
 182,TP. Hồ Chí Minh,2,Mỹ Tho,75,1A,TP,TP,1,1
 182,TP. Hồ Chí Minh,3,Vĩnh Long,136,1A,TP,TP,1,1
