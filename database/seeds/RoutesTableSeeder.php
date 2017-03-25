@@ -24,6 +24,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '47',
                 'source' => 182,
                 'target' => 1,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             1 => 
             array (
@@ -32,6 +35,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '75',
                 'source' => 182,
                 'target' => 2,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             2 => 
             array (
@@ -40,6 +46,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '136',
                 'source' => 182,
                 'target' => 3,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             3 => 
             array (
@@ -48,6 +57,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '166',
                 'source' => 182,
                 'target' => 4,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             4 => 
             array (
@@ -56,6 +68,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '226',
                 'source' => 182,
                 'target' => 5,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             5 => 
             array (
@@ -64,6 +79,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '276',
                 'source' => 182,
                 'target' => 6,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             6 => 
             array (
@@ -72,6 +90,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '345',
                 'source' => 182,
                 'target' => 7,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             7 => 
             array (
@@ -80,6 +101,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '395',
                 'source' => 182,
                 'target' => 8,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             8 => 
             array (
@@ -88,6 +112,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 182,
                 'target' => 9,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             9 => 
             array (
@@ -96,6 +123,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '196',
                 'source' => 182,
                 'target' => 10,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             10 => 
             array (
@@ -104,6 +134,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '345',
                 'source' => 182,
                 'target' => 11,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             11 => 
             array (
@@ -112,6 +145,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '446',
                 'source' => 182,
                 'target' => 12,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             12 => 
             array (
@@ -120,6 +156,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '570',
                 'source' => 182,
                 'target' => 13,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             13 => 
             array (
@@ -128,6 +167,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '670',
                 'source' => 182,
                 'target' => 14,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             14 => 
             array (
@@ -136,6 +178,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '858',
                 'source' => 182,
                 'target' => 15,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             15 => 
             array (
@@ -144,6 +189,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '923',
                 'source' => 182,
                 'target' => 16,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             16 => 
             array (
@@ -152,6 +200,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '977',
                 'source' => 182,
                 'target' => 17,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             17 => 
             array (
@@ -160,6 +211,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1075',
                 'source' => 182,
                 'target' => 18,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             18 => 
             array (
@@ -168,6 +222,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1142',
                 'source' => 182,
                 'target' => 19,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             19 => 
             array (
@@ -176,6 +233,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1237',
                 'source' => 182,
                 'target' => 20,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             20 => 
             array (
@@ -184,6 +244,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1387',
                 'source' => 182,
                 'target' => 21,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             21 => 
             array (
@@ -192,6 +255,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1437',
                 'source' => 182,
                 'target' => 22,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             22 => 
             array (
@@ -200,6 +266,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1575',
                 'source' => 182,
                 'target' => 23,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             23 => 
             array (
@@ -208,6 +277,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1635',
                 'source' => 182,
                 'target' => 24,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             24 => 
             array (
@@ -216,6 +288,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1669',
                 'source' => 182,
                 'target' => 25,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             25 => 
             array (
@@ -224,6 +299,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1727',
                 'source' => 182,
                 'target' => 26,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             26 => 
             array (
@@ -232,6 +310,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '39',
                 'source' => 47,
                 'target' => 27,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             27 => 
             array (
@@ -240,6 +321,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '57',
                 'source' => 47,
                 'target' => 28,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             28 => 
             array (
@@ -248,6 +332,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '160',
                 'source' => 47,
                 'target' => 29,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             29 => 
             array (
@@ -256,6 +343,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '175',
                 'source' => 47,
                 'target' => 30,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             30 => 
             array (
@@ -264,6 +354,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 182,
                 'target' => 31,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             31 => 
             array (
@@ -272,6 +365,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '83',
                 'source' => 182,
                 'target' => 32,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             32 => 
             array (
@@ -280,6 +376,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '102',
                 'source' => 182,
                 'target' => 33,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             33 => 
             array (
@@ -288,6 +387,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '220',
                 'source' => 182,
                 'target' => 34,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             34 => 
             array (
@@ -296,6 +398,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '355',
                 'source' => 182,
                 'target' => 35,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             35 => 
             array (
@@ -304,6 +409,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '543',
                 'source' => 182,
                 'target' => 36,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             36 => 
             array (
@@ -312,6 +420,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '590',
                 'source' => 182,
                 'target' => 37,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             37 => 
             array (
@@ -320,6 +431,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '659',
                 'source' => 182,
                 'target' => 38,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             38 => 
             array (
@@ -328,6 +442,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '778',
                 'source' => 182,
                 'target' => 39,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             39 => 
             array (
@@ -336,6 +453,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '830',
                 'source' => 182,
                 'target' => 40,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             40 => 
             array (
@@ -344,6 +464,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '987',
                 'source' => 182,
                 'target' => 41,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             41 => 
             array (
@@ -352,6 +475,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1098',
                 'source' => 182,
                 'target' => 42,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             42 => 
             array (
@@ -360,6 +486,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1275',
                 'source' => 182,
                 'target' => 43,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             43 => 
             array (
@@ -368,6 +497,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1410',
                 'source' => 182,
                 'target' => 44,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             44 => 
             array (
@@ -376,6 +508,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1546',
                 'source' => 182,
                 'target' => 45,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             45 => 
             array (
@@ -384,6 +519,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1666',
                 'source' => 182,
                 'target' => 46,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             46 => 
             array (
@@ -392,6 +530,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '1848',
                 'source' => 182,
                 'target' => 47,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             47 => 
             array (
@@ -400,6 +541,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '73',
                 'source' => 47,
                 'target' => 48,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             48 => 
             array (
@@ -408,6 +552,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '305',
                 'source' => 47,
                 'target' => 49,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             49 => 
             array (
@@ -416,6 +563,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '468',
                 'source' => 47,
                 'target' => 50,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             50 => 
             array (
@@ -424,6 +574,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '437',
                 'source' => 47,
                 'target' => 51,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             51 => 
             array (
@@ -432,6 +585,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '53',
                 'source' => 47,
                 'target' => 52,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             52 => 
             array (
@@ -440,6 +596,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '77',
                 'source' => 47,
                 'target' => 53,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             53 => 
             array (
@@ -448,6 +607,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '156',
                 'source' => 47,
                 'target' => 54,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             54 => 
             array (
@@ -456,6 +618,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '307',
                 'source' => 47,
                 'target' => 55,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             55 => 
             array (
@@ -464,6 +629,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '25',
                 'source' => 185,
                 'target' => 56,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             56 => 
             array (
@@ -472,6 +640,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '25',
                 'source' => 185,
                 'target' => 57,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             57 => 
             array (
@@ -480,6 +651,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '62',
                 'source' => 185,
                 'target' => 58,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             58 => 
             array (
@@ -488,6 +662,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '40',
                 'source' => 53,
                 'target' => 59,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             59 => 
             array (
@@ -496,6 +673,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '26',
                 'source' => 59,
                 'target' => 54,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             60 => 
             array (
@@ -504,6 +684,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 54,
                 'target' => 60,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             61 => 
             array (
@@ -512,6 +695,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '42',
                 'source' => 60,
                 'target' => 61,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             62 => 
             array (
@@ -520,6 +706,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '27',
                 'source' => 61,
                 'target' => 62,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             63 => 
             array (
@@ -528,6 +717,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '7',
                 'source' => 62,
                 'target' => 63,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             64 => 
             array (
@@ -536,6 +728,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '22',
                 'source' => 63,
                 'target' => 64,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             65 => 
             array (
@@ -544,6 +739,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '23',
                 'source' => 64,
                 'target' => 55,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             66 => 
             array (
@@ -552,6 +750,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '45',
                 'source' => 55,
                 'target' => 65,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             67 => 
             array (
@@ -560,6 +761,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '50',
                 'source' => 183,
                 'target' => 66,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             68 => 
             array (
@@ -568,6 +772,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '20',
                 'source' => 184,
                 'target' => 67,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             69 => 
             array (
@@ -576,6 +783,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '45',
                 'source' => 184,
                 'target' => 68,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             70 => 
             array (
@@ -584,6 +794,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '26',
                 'source' => 68,
                 'target' => 69,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             71 => 
             array (
@@ -592,6 +805,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '25',
                 'source' => 68,
                 'target' => 70,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             72 => 
             array (
@@ -600,6 +816,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '18',
                 'source' => 70,
                 'target' => 71,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             73 => 
             array (
@@ -608,6 +827,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '22',
                 'source' => 70,
                 'target' => 72,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             74 => 
             array (
@@ -616,6 +838,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '16',
                 'source' => 72,
                 'target' => 73,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             75 => 
             array (
@@ -624,6 +849,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '26',
                 'source' => 73,
                 'target' => 74,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             76 => 
             array (
@@ -632,6 +860,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '32',
                 'source' => 55,
                 'target' => 75,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             77 => 
             array (
@@ -640,6 +871,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '37',
                 'source' => 75,
                 'target' => 76,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             78 => 
             array (
@@ -648,6 +882,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '40',
                 'source' => 186,
                 'target' => 77,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             79 => 
             array (
@@ -656,6 +893,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '10',
                 'source' => 77,
                 'target' => 66,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             80 => 
             array (
@@ -664,6 +904,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '22',
                 'source' => 77,
                 'target' => 78,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             81 => 
             array (
@@ -672,6 +915,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '15',
                 'source' => 78,
                 'target' => 70,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             82 => 
             array (
@@ -680,6 +926,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '25',
                 'source' => 75,
                 'target' => 79,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             83 => 
             array (
@@ -688,6 +937,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '36',
                 'source' => 79,
                 'target' => 80,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             84 => 
             array (
@@ -696,6 +948,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '22',
                 'source' => 80,
                 'target' => 74,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             85 => 
             array (
@@ -704,6 +959,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '50',
                 'source' => 79,
                 'target' => 81,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             86 => 
             array (
@@ -712,6 +970,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '50',
                 'source' => 80,
                 'target' => 70,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             87 => 
             array (
@@ -720,6 +981,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '75',
                 'source' => 74,
                 'target' => 82,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             88 => 
             array (
@@ -728,6 +992,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '15',
                 'source' => 82,
                 'target' => 83,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             89 => 
             array (
@@ -736,6 +1003,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '45',
                 'source' => 83,
                 'target' => 84,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             90 => 
             array (
@@ -744,6 +1014,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '85',
                 'source' => 62,
                 'target' => 85,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             91 => 
             array (
@@ -752,6 +1025,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '23',
                 'source' => 85,
                 'target' => 81,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             92 => 
             array (
@@ -760,6 +1036,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '32',
                 'source' => 81,
                 'target' => 86,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             93 => 
             array (
@@ -768,6 +1047,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '22',
                 'source' => 86,
                 'target' => 87,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             94 => 
             array (
@@ -776,6 +1058,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '53',
                 'source' => 87,
                 'target' => 82,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             95 => 
             array (
@@ -784,6 +1069,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '10',
                 'source' => 87,
                 'target' => 88,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             96 => 
             array (
@@ -792,6 +1080,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '18',
                 'source' => 88,
                 'target' => 89,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             97 => 
             array (
@@ -800,6 +1091,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '65',
                 'source' => 89,
                 'target' => 84,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             98 => 
             array (
@@ -808,6 +1102,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '75',
                 'source' => 88,
                 'target' => 90,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             99 => 
             array (
@@ -816,6 +1113,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '70',
                 'source' => 90,
                 'target' => 91,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             100 => 
             array (
@@ -824,6 +1124,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '29',
                 'source' => 91,
                 'target' => 92,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             101 => 
             array (
@@ -832,6 +1135,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '29',
                 'source' => 92,
                 'target' => 93,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             102 => 
             array (
@@ -840,6 +1146,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '70',
                 'source' => 93,
                 'target' => 94,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             103 => 
             array (
@@ -848,6 +1157,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '68',
                 'source' => 94,
                 'target' => 95,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             104 => 
             array (
@@ -856,6 +1168,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '47',
                 'source' => 187,
                 'target' => 96,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             105 => 
             array (
@@ -864,6 +1179,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '9',
                 'source' => 96,
                 'target' => 97,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             106 => 
             array (
@@ -872,6 +1190,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '8',
                 'source' => 96,
                 'target' => 98,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             107 => 
             array (
@@ -880,6 +1201,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '43',
                 'source' => 96,
                 'target' => 99,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             108 => 
             array (
@@ -888,6 +1212,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '27',
                 'source' => 99,
                 'target' => 100,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             109 => 
             array (
@@ -896,6 +1223,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '26',
                 'source' => 100,
                 'target' => 101,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             110 => 
             array (
@@ -904,6 +1234,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '13',
                 'source' => 101,
                 'target' => 102,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             111 => 
             array (
@@ -912,6 +1245,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '28',
                 'source' => 102,
                 'target' => 103,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             112 => 
             array (
@@ -920,6 +1256,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '33',
                 'source' => 103,
                 'target' => 104,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             113 => 
             array (
@@ -928,6 +1267,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '37',
                 'source' => 104,
                 'target' => 84,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             114 => 
             array (
@@ -936,6 +1278,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '27',
                 'source' => 104,
                 'target' => 100,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             115 => 
             array (
@@ -944,6 +1289,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '24',
                 'source' => 104,
                 'target' => 105,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             116 => 
             array (
@@ -952,6 +1300,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '11',
                 'source' => 105,
                 'target' => 106,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             117 => 
             array (
@@ -960,6 +1311,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '24',
                 'source' => 105,
                 'target' => 107,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             118 => 
             array (
@@ -968,6 +1322,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '43',
                 'source' => 107,
                 'target' => 84,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             119 => 
             array (
@@ -976,6 +1333,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '23',
                 'source' => 107,
                 'target' => 108,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             120 => 
             array (
@@ -984,6 +1344,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '40',
                 'source' => 108,
                 'target' => 109,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             121 => 
             array (
@@ -992,6 +1355,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '45',
                 'source' => 108,
                 'target' => 90,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             122 => 
             array (
@@ -1000,6 +1366,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '48',
                 'source' => 108,
                 'target' => 91,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             123 => 
             array (
@@ -1008,6 +1377,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '16',
                 'source' => 109,
                 'target' => 30,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             124 => 
             array (
@@ -1016,6 +1388,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '3',
                 'source' => 30,
                 'target' => 110,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             125 => 
             array (
@@ -1024,6 +1399,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '15',
                 'source' => 30,
                 'target' => 29,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             126 => 
             array (
@@ -1032,6 +1410,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '35',
                 'source' => 29,
                 'target' => 93,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             127 => 
             array (
@@ -1040,6 +1421,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '22',
                 'source' => 29,
                 'target' => 111,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             128 => 
             array (
@@ -1048,6 +1432,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '15',
                 'source' => 111,
                 'target' => 112,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             129 => 
             array (
@@ -1056,6 +1443,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '33',
                 'source' => 111,
                 'target' => 113,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             130 => 
             array (
@@ -1064,6 +1454,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '45',
                 'source' => 113,
                 'target' => 114,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             131 => 
             array (
@@ -1072,6 +1465,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '48',
                 'source' => 113,
                 'target' => 94,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             132 => 
             array (
@@ -1080,6 +1476,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '45',
                 'source' => 114,
                 'target' => 115,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             133 => 
             array (
@@ -1088,6 +1487,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '81',
                 'source' => 114,
                 'target' => 95,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             134 => 
             array (
@@ -1096,6 +1498,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '85',
                 'source' => 114,
                 'target' => 116,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             135 => 
             array (
@@ -1104,6 +1509,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '50',
                 'source' => 93,
                 'target' => 117,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             136 => 
             array (
@@ -1112,6 +1520,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '18',
                 'source' => 117,
                 'target' => 28,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             137 => 
             array (
@@ -1120,6 +1531,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '20',
                 'source' => 117,
                 'target' => 118,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             138 => 
             array (
@@ -1128,6 +1542,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '55',
                 'source' => 117,
                 'target' => 119,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             139 => 
             array (
@@ -1136,6 +1553,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '22',
                 'source' => 118,
                 'target' => 28,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             140 => 
             array (
@@ -1144,6 +1564,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '21',
                 'source' => 118,
                 'target' => 120,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             141 => 
             array (
@@ -1152,6 +1575,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '26',
                 'source' => 118,
                 'target' => 121,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             142 => 
             array (
@@ -1160,6 +1586,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '32',
                 'source' => 120,
                 'target' => 94,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             143 => 
             array (
@@ -1168,6 +1597,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '38',
                 'source' => 121,
                 'target' => 27,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             144 => 
             array (
@@ -1176,6 +1608,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '20',
                 'source' => 121,
                 'target' => 122,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             145 => 
             array (
@@ -1184,6 +1619,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '43',
                 'source' => 121,
                 'target' => 123,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             146 => 
             array (
@@ -1192,6 +1630,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '45',
                 'source' => 123,
                 'target' => 95,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             147 => 
             array (
@@ -1200,6 +1641,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '35',
                 'source' => 123,
                 'target' => 124,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             148 => 
             array (
@@ -1208,6 +1652,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '3',
                 'source' => 188,
                 'target' => 125,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             149 => 
             array (
@@ -1216,6 +1663,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '65',
                 'source' => 125,
                 'target' => 126,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             150 => 
             array (
@@ -1224,6 +1674,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '40',
                 'source' => 125,
                 'target' => 127,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             151 => 
             array (
@@ -1232,6 +1685,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '20',
                 'source' => 127,
                 'target' => 128,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             152 => 
             array (
@@ -1240,6 +1696,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '15',
                 'source' => 127,
                 'target' => 124,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             153 => 
             array (
@@ -1248,6 +1707,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '50',
                 'source' => 124,
                 'target' => 129,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             154 => 
             array (
@@ -1256,6 +1718,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 189,
                 'target' => 130,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             155 => 
             array (
@@ -1264,6 +1729,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '23',
                 'source' => 189,
                 'target' => 131,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             156 => 
             array (
@@ -1272,6 +1740,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '52',
                 'source' => 131,
                 'target' => 132,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             157 => 
             array (
@@ -1280,6 +1751,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '32',
                 'source' => 131,
                 'target' => 25,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             158 => 
             array (
@@ -1288,6 +1762,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 131,
                 'target' => 24,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             159 => 
             array (
@@ -1296,6 +1773,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '34',
                 'source' => 59,
                 'target' => 133,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             160 => 
             array (
@@ -1304,6 +1784,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '8',
                 'source' => 133,
                 'target' => 134,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             161 => 
             array (
@@ -1312,6 +1795,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '64',
                 'source' => 133,
                 'target' => 135,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             162 => 
             array (
@@ -1320,6 +1806,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '25',
                 'source' => 135,
                 'target' => 136,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             163 => 
             array (
@@ -1328,6 +1817,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '20',
                 'source' => 136,
                 'target' => 61,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             164 => 
             array (
@@ -1336,6 +1828,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '26',
                 'source' => 135,
                 'target' => 137,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             165 => 
             array (
@@ -1344,6 +1839,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '40',
                 'source' => 137,
                 'target' => 138,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             166 => 
             array (
@@ -1352,6 +1850,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '31',
                 'source' => 138,
                 'target' => 62,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             167 => 
             array (
@@ -1360,6 +1861,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '36',
                 'source' => 137,
                 'target' => 139,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             168 => 
             array (
@@ -1368,6 +1872,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '40',
                 'source' => 139,
                 'target' => 140,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             169 => 
             array (
@@ -1376,6 +1883,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '26',
                 'source' => 139,
                 'target' => 141,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             170 => 
             array (
@@ -1384,6 +1894,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '10',
                 'source' => 141,
                 'target' => 78,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             171 => 
             array (
@@ -1392,6 +1905,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '40',
                 'source' => 78,
                 'target' => 142,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             172 => 
             array (
@@ -1400,6 +1916,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '40',
                 'source' => 142,
                 'target' => 143,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             173 => 
             array (
@@ -1408,6 +1927,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '60',
                 'source' => 143,
                 'target' => 63,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             174 => 
             array (
@@ -1416,6 +1938,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '18',
                 'source' => 78,
                 'target' => 144,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             175 => 
             array (
@@ -1424,6 +1949,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '20',
                 'source' => 144,
                 'target' => 145,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             176 => 
             array (
@@ -1432,6 +1960,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '25',
                 'source' => 145,
                 'target' => 146,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             177 => 
             array (
@@ -1440,6 +1971,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '53',
                 'source' => 146,
                 'target' => 140,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             178 => 
             array (
@@ -1448,6 +1982,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '37',
                 'source' => 140,
                 'target' => 147,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             179 => 
             array (
@@ -1456,6 +1993,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '28',
                 'source' => 147,
                 'target' => 148,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             180 => 
             array (
@@ -1464,6 +2004,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '32',
                 'source' => 148,
                 'target' => 149,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             181 => 
             array (
@@ -1472,6 +2015,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '36',
                 'source' => 149,
                 'target' => 150,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             182 => 
             array (
@@ -1480,6 +2026,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '43',
                 'source' => 150,
                 'target' => 151,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             183 => 
             array (
@@ -1488,6 +2037,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '19',
                 'source' => 151,
                 'target' => 140,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             184 => 
             array (
@@ -1496,6 +2048,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '40',
                 'source' => 147,
                 'target' => 152,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             185 => 
             array (
@@ -1504,6 +2059,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 152,
                 'target' => 153,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             186 => 
             array (
@@ -1512,6 +2070,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '34',
                 'source' => 152,
                 'target' => 51,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             187 => 
             array (
@@ -1520,6 +2081,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 153,
                 'target' => 154,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             188 => 
             array (
@@ -1528,6 +2092,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '58',
                 'source' => 154,
                 'target' => 155,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             189 => 
             array (
@@ -1536,6 +2103,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '36',
                 'source' => 155,
                 'target' => 137,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             190 => 
             array (
@@ -1544,6 +2114,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '68',
                 'source' => 154,
                 'target' => 156,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             191 => 
             array (
@@ -1552,6 +2125,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '27',
                 'source' => 156,
                 'target' => 157,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             192 => 
             array (
@@ -1560,6 +2136,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '58',
                 'source' => 156,
                 'target' => 158,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             193 => 
             array (
@@ -1568,6 +2147,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '7',
                 'source' => 157,
                 'target' => 159,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             194 => 
             array (
@@ -1576,6 +2158,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '97',
                 'source' => 157,
                 'target' => 160,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             195 => 
             array (
@@ -1584,6 +2169,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '50',
                 'source' => 159,
                 'target' => 161,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             196 => 
             array (
@@ -1592,6 +2180,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '28',
                 'source' => 161,
                 'target' => 158,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             197 => 
             array (
@@ -1600,6 +2191,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '43',
                 'source' => 160,
                 'target' => 162,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             198 => 
             array (
@@ -1608,6 +2202,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '65',
                 'source' => 160,
                 'target' => 163,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             199 => 
             array (
@@ -1616,6 +2213,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '98',
                 'source' => 160,
                 'target' => 164,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             200 => 
             array (
@@ -1624,6 +2224,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '60',
                 'source' => 163,
                 'target' => 51,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             201 => 
             array (
@@ -1632,6 +2235,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 51,
                 'target' => 165,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             202 => 
             array (
@@ -1640,6 +2246,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '20',
                 'source' => 165,
                 'target' => 166,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             203 => 
             array (
@@ -1648,6 +2257,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '14',
                 'source' => 165,
                 'target' => 167,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             204 => 
             array (
@@ -1656,6 +2268,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '21',
                 'source' => 167,
                 'target' => 166,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             205 => 
             array (
@@ -1664,6 +2279,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '60',
                 'source' => 167,
                 'target' => 160,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             206 => 
             array (
@@ -1672,6 +2290,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '70',
                 'source' => 167,
                 'target' => 164,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             207 => 
             array (
@@ -1680,6 +2301,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '50',
                 'source' => 164,
                 'target' => 168,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             208 => 
             array (
@@ -1688,6 +2312,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '70',
                 'source' => 168,
                 'target' => 169,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             209 => 
             array (
@@ -1696,6 +2323,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 169,
                 'target' => 170,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             210 => 
             array (
@@ -1704,6 +2334,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '20',
                 'source' => 169,
                 'target' => 171,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             211 => 
             array (
@@ -1712,6 +2345,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '80',
                 'source' => 171,
                 'target' => 172,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             212 => 
             array (
@@ -1720,6 +2356,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '60',
                 'source' => 172,
                 'target' => 162,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             213 => 
             array (
@@ -1728,6 +2367,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '43',
                 'source' => 162,
                 'target' => 160,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             214 => 
             array (
@@ -1736,6 +2378,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '52',
                 'source' => 162,
                 'target' => 50,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             215 => 
             array (
@@ -1744,6 +2389,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '80',
                 'source' => 50,
                 'target' => 159,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             216 => 
             array (
@@ -1752,6 +2400,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '36',
                 'source' => 50,
                 'target' => 173,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             217 => 
             array (
@@ -1760,6 +2411,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '48',
                 'source' => 50,
                 'target' => 174,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             218 => 
             array (
@@ -1768,6 +2422,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '98',
                 'source' => 174,
                 'target' => 175,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             219 => 
             array (
@@ -1776,6 +2433,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '32',
                 'source' => 175,
                 'target' => 176,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             220 => 
             array (
@@ -1784,6 +2444,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '68',
                 'source' => 176,
                 'target' => 158,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             221 => 
             array (
@@ -1792,6 +2455,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '45',
                 'source' => 49,
                 'target' => 177,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             222 => 
             array (
@@ -1800,6 +2466,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '75',
                 'source' => 177,
                 'target' => 178,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             223 => 
             array (
@@ -1808,6 +2477,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '60',
                 'source' => 178,
                 'target' => 179,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             224 => 
             array (
@@ -1816,6 +2488,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '35',
                 'source' => 179,
                 'target' => 180,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             225 => 
             array (
@@ -1824,6 +2499,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '30',
                 'source' => 180,
                 'target' => 48,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
             226 => 
             array (
@@ -1832,6 +2510,9 @@ class RoutesTableSeeder extends Seeder
                 'cost' => '37',
                 'source' => 48,
                 'target' => 181,
+                'created_at' => NULL,
+                'updated_at' => NULL,
+                'deleted_at' => NULL,
             ),
         ));
         
