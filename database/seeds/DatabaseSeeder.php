@@ -8,5 +8,8 @@ class DatabaseSeeder extends Seeder {
 	public function run()
 	{
 		Model::unguard();
-	}
+		$this->call(LocationTypesTableSeeder::class);
+	    $this->call(LocationsTableSeeder::class);
+        $this->call(RoutesTableSeeder::class);
+    }
 }
