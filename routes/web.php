@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::get('/journey', 'JourneyController@index')->name('journey');
 
 // Admin Interface Routes
 Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
@@ -24,7 +25,3 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
 
 	// [...] other routes
 });
-
-Route::resource('location', 'LocationController');
-Route::resource('locationtype', 'LocationTypeController');
-Route::resource('route', 'RouteController');

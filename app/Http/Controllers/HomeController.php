@@ -14,7 +14,7 @@ class HomeController extends Controller
 	public function index()
 	{
 		return view('home',[
-			'location'=>Location::all()
+			'locations'=>Location::all()
 		]);
 	}
 

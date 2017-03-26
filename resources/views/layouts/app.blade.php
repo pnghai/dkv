@@ -4,14 +4,22 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>@yield('title') | Du Khao Viet</title><!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <title>@yield('title') | Du Khao Viet</title><!-- Fonts -->    {{-- Encrypted CSRF token for Laravel, in order for Ajax requests to work --}}
+        <meta name="csrf-token" content="{{ csrf_token() }}" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
         <link href="{!! asset('css/app.css') !!}" media="all" rel="stylesheet" type="text/css" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     </head>
     <body>
-    <div class="container">
-        @yield('content')
-    </div>
+     <div class="d-flex flex-column full-height h-100" id="app">
+         @include('partials.header')
+         <div class="viewport d-flex flex-row">
+             @yield('content')
+         </div>
+     </div>
+    <script>
+        window.Laravel = { csrfToken: '{{ csrf_token() }}' };
+    </script>
     <script type="text/javascript" src="{!! asset('js/app.js') !!}"></script>
     </body>
 </html>
