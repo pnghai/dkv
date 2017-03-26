@@ -22,6 +22,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'admin'], function()
 	CRUD::resource('locationtype', 'Admin\LocationTypeCrudController');
 	CRUD::resource('route', 'Admin\RouteCrudController');
 	CRUD::resource('routevehicle', 'Admin\RouteVehicleCrudController');
+    CRUD::resource('vehicle', 'Admin\VehicleCrudController');
 
 	// [...] other routes
 });

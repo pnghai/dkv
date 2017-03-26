@@ -2,17 +2,60 @@
 
 namespace App\Models;
 
-use Backpack\CRUD\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
+use Backpack\CRUD\CrudTrait;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Vehicle extends Model {
-	use CrudTrait;
-	protected $table = 'vehicles';
-	public $timestamps = true;
+class Vehicle extends Model
+{
+    use CrudTrait;
+    use SoftDeletes;
 
-	use SoftDeletes;
+     /*
+	|--------------------------------------------------------------------------
+	| GLOBAL VARIABLES
+	|--------------------------------------------------------------------------
+	*/
 
-	protected $dates = ['deleted_at'];
+    protected $table = 'vehicles';
+    //protected $primaryKey = 'id';
+    public $timestamps = true;
+    // protected $guarded = ['id'];
+    protected $fillable = ['name'];
+    // protected $hidden = [];
+    protected $dates = ['deleted_at'];
 
+    /*
+	|--------------------------------------------------------------------------
+	| FUNCTIONS
+	|--------------------------------------------------------------------------
+	*/
+
+    /*
+	|--------------------------------------------------------------------------
+	| RELATIONS
+	|--------------------------------------------------------------------------
+	*/
+    public function routes()
+    {
+        return $this->hasMany('App\Models\RouteVehicle');
+    }
+
+    /*
+	|--------------------------------------------------------------------------
+	| SCOPES
+	|--------------------------------------------------------------------------
+	*/
+
+    /*
+	|--------------------------------------------------------------------------
+	| ACCESORS
+	|--------------------------------------------------------------------------
+	*/
+
+    /*
+	|--------------------------------------------------------------------------
+	| MUTATORS
+	|--------------------------------------------------------------------------
+	*/
 }

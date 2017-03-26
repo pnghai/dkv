@@ -17,4 +17,12 @@ class RouteVehicle extends Model {
 
 	protected $dates = ['deleted_at'];
 
+    public function route()
+    {
+        return $this->belongsTo('App\Models\Route');
+    }
+    public function vehicle()
+    {
+        return $this->belongsTo('App\Models\Vehicle');
+    }
 }

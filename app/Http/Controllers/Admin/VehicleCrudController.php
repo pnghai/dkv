@@ -5,10 +5,10 @@ namespace App\Http\Controllers\Admin;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 
 // VALIDATION: change the requests to match your own file names if you need form validation
-use App\Http\Requests\RouteVehicleRequest as StoreRequest;
-use App\Http\Requests\RouteVehicleRequest as UpdateRequest;
+use App\Http\Requests\VehicleRequest as StoreRequest;
+use App\Http\Requests\VehicleRequest as UpdateRequest;
 
-class RouteVehicleCrudController extends CrudController
+class VehicleCrudController extends CrudController
 {
 
     public function setUp()
@@ -19,9 +19,9 @@ class RouteVehicleCrudController extends CrudController
 		| BASIC CRUD INFORMATION
 		|--------------------------------------------------------------------------
 		*/
-        $this->crud->setModel('App\Models\RouteVehicle');
-        $this->crud->setRoute("admin/routevehicle");
-        $this->crud->setEntityNameStrings('routevehicle', 'route_vehicles');
+        $this->crud->setModel('App\Models\Vehicle');
+        $this->crud->setRoute("admin/vehicle");
+        $this->crud->setEntityNameStrings('vehicle', 'vehicles');
 
         /*
 		|--------------------------------------------------------------------------

@@ -24,4 +24,8 @@ class Route extends Model {
 	{
 		return $this->belongsTo('App\Models\Location','target');
 	}
+    public function routevehicles()
+    {
+        return $this->hasMany('App\Models\RouteVehicle');
+    }
 }
