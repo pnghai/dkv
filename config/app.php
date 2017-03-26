@@ -179,6 +179,7 @@ return [
 	    Orangehill\Iseed\IseedServiceProvider::class,
 	    Backpack\Base\BaseServiceProvider::class,
 	    Backpack\CRUD\CrudServiceProvider::class,
+        Fideloper\Proxy\TrustedProxyServiceProvider::class,
 
     ],
 
