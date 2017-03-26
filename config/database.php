@@ -1,4 +1,11 @@
 <?php
+$heroku_url = parse_url(getenv("DATABASE_URL"));
+$heroku_config =[
+    'host' => $heroku_url["host"],
+    'username' => $heroku_url["user"],
+    'password' => $heroku_url["pass"],
+    'database' => substr($heroku_url["path"], 1),
+];
 
 return [
 
@@ -55,11 +62,11 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => (!empty($heroku_config['host']))?$heroku_config['host']:env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'dkvdb'),
-            'username' => env('DB_USERNAME', 'homestead'),
-            'password' => env('DB_PASSWORD', 'secret'),
+            'database' => (!empty($heroku_config['database']))?$heroku_config['database']:env('DB_DATABASE', 'dkvdb'),
+            'username' => (!empty($heroku_config['username']))?$heroku_config['username']:env('DB_USERNAME', 'homestead'),
+            'password' => (!empty($heroku_config['password']))?$heroku_config['password']:env('DB_PASSWORD', 'secret'),
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
