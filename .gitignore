@@ -11,3 +11,5 @@ Homestead.yaml
 .phpstorm.meta.php
 _ide_helper*
 *.log
+/public/css/app.css
+/public/js/app.js
