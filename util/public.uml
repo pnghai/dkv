@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>95cb2f4d-9710-461b-83f5-4c7322b0ad0c.SCHEMA:dkvdb.public</OriginalElement>
+  <nodes>
+    <node x="136.5" y="658.0">95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.route_vehicles</node>
+    <node x="0.0" y="402.0">95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.routes</node>
+    <node x="263.0" y="435.0">95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.vehicles</node>
+    <node x="20.0" y="190.0">95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.locations</node>
+    <node x="188.0" y="865.0">95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.password_resets</node>
+    <node x="30.0" y="0.0">95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.location_types</node>
+    <node x="759.0" y="0.0">95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.spatial_ref_sys</node>
+    <node x="491.0" y="0.0">95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.users</node>
+    <node x="0.0" y="865.0">95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.migrations</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.route_vehicles" target="95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.routes">
+      <point x="-50.75" y="-81.0" />
+      <point x="187.25" y="633.0" />
+      <point x="121.5" y="633.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.route_vehicles" target="95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.vehicles">
+      <point x="50.75" y="-81.0" />
+      <point x="288.75" y="633.0" />
+      <point x="354.5" y="633.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.routes" target="95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.locations">
+      <point x="-60.75" y="-103.0" />
+      <point x="60.75" y="377.0" />
+      <point x="70.75" y="377.0" />
+      <point x="-50.75" y="81.0" />
+    </edge>
+    <edge source="95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.locations" target="95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.location_types">
+      <point x="0.0" y="-81.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7512742099898063" x="476.60583446404337" y="420.5" />
+  <SelectedNodes>
+    <node>95cb2f4d-9710-461b-83f5-4c7322b0ad0c.TABLE:dkvdb.public.location_types</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
