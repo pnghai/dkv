@@ -13,6 +13,66 @@ SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
 
+SET search_path = public, pg_catalog;
+
+ALTER TABLE ONLY public.routes DROP CONSTRAINT routes_target_foreign;
+ALTER TABLE ONLY public.routes DROP CONSTRAINT routes_source_foreign;
+ALTER TABLE ONLY public.route_vehicles DROP CONSTRAINT route_vehicles_vehicle_id_foreign;
+ALTER TABLE ONLY public.route_vehicles DROP CONSTRAINT route_vehicles_route_id_foreign;
+ALTER TABLE ONLY public.locations DROP CONSTRAINT locations_location_type_id_foreign;
+DROP INDEX public.password_resets_token_index;
+DROP INDEX public.password_resets_email_index;
+ALTER TABLE ONLY public.vehicles DROP CONSTRAINT vehicles_pkey;
+ALTER TABLE ONLY public.users DROP CONSTRAINT users_pkey;
+ALTER TABLE ONLY public.users DROP CONSTRAINT users_email_unique;
+ALTER TABLE ONLY public.routes DROP CONSTRAINT routes_pkey;
+ALTER TABLE ONLY public.route_vehicles DROP CONSTRAINT route_vehicles_pkey;
+ALTER TABLE ONLY public.migrations DROP CONSTRAINT migrations_pkey;
+ALTER TABLE ONLY public.locations DROP CONSTRAINT locations_pkey;
+ALTER TABLE ONLY public.location_types DROP CONSTRAINT location_types_pkey;
+ALTER TABLE public.vehicles ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.users ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.routes ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.route_vehicles ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.migrations ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.locations ALTER COLUMN id DROP DEFAULT;
+ALTER TABLE public.location_types ALTER COLUMN id DROP DEFAULT;
+DROP SEQUENCE public.vehicles_id_seq;
+DROP TABLE public.vehicles;
+DROP SEQUENCE public.users_id_seq;
+DROP TABLE public.users;
+DROP SEQUENCE public.routes_id_seq;
+DROP TABLE public.routes;
+DROP SEQUENCE public.route_vehicles_id_seq;
+DROP TABLE public.route_vehicles;
+DROP TABLE public.password_resets;
+DROP SEQUENCE public.migrations_id_seq;
+DROP TABLE public.migrations;
+DROP SEQUENCE public.locations_id_seq;
+DROP TABLE public.locations;
+DROP SEQUENCE public.location_types_id_seq;
+DROP TABLE public.location_types;
+DROP FUNCTION public.reset_sequence(tablename text, columnname text);
+DROP EXTENSION pgrouting;
+DROP EXTENSION postgis;
+DROP EXTENSION plpgsql;
+DROP SCHEMA public;
+--
+-- Name: public; Type: SCHEMA; Schema: -; Owner: postgres
+--
+
+CREATE SCHEMA public;
+
+
+ALTER SCHEMA public OWNER TO postgres;
+
+--
+-- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: postgres
+--
+
+COMMENT ON SCHEMA public IS 'standard public schema';
+
+
 --
 -- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
 --
@@ -56,6 +116,29 @@ COMMENT ON EXTENSION pgrouting IS 'pgRouting Extension';
 
 
 SET search_path = public, pg_catalog;
+
+--
+-- Name: reset_sequence(text, text); Type: FUNCTION; Schema: public; Owner: homestead
+--
+
+CREATE FUNCTION reset_sequence(tablename text, columnname text) RETURNS bigint
+    LANGUAGE plpgsql
+    AS $$
+DECLARE seqname character varying;
+        c integer;
+BEGIN
+    select tablename || '_' || columnname || '_seq' into seqname;
+    EXECUTE 'SELECT max("' || columnname || '") FROM "' || tablename || '"' into c;
+    if c is null then c = 0; end if;
+    c = c+1; --because of substitution of setval with "alter sequence"
+    --EXECUTE 'SELECT setval( "' || seqname || '", ' || cast(c as character varying) || ', false)'; DOES NOT WORK!!!
+    EXECUTE 'alter sequence ' || seqname ||' restart with ' || cast(c as character varying);
+    RETURN nextval(seqname)-1;
+END;
+$$;
+
+
+ALTER FUNCTION public.reset_sequence(tablename text, columnname text) OWNER TO homestead;
 
 SET default_tablespace = '';
 
@@ -385,7 +468,6 @@ ALTER TABLE ONLY vehicles ALTER COLUMN id SET DEFAULT nextval('vehicles_id_seq':
 --
 
 COPY location_types (id, name, created_at, updated_at, deleted_at) FROM stdin;
-1	TP	\N	\N	\N
 2	Thị Trấn	\N	\N	\N
 3	Thủ Đô	\N	\N	\N
 4	Thị Xã	\N	\N	\N
@@ -402,6 +484,7 @@ COPY location_types (id, name, created_at, updated_at, deleted_at) FROM stdin;
 15	Điểm Cực Tây	\N	\N	\N
 16	Di Tích	\N	\N	\N
 17	Địa Danh	\N	\N	\N
+1	Thành phố	\N	2017-03-26 11:10:44	\N
 \.
 
 
@@ -409,7 +492,7 @@ COPY location_types (id, name, created_at, updated_at, deleted_at) FROM stdin;
 -- Name: location_types_id_seq; Type: SEQUENCE SET; Schema: public; Owner: homestead
 --
 
-SELECT pg_catalog.setval('location_types_id_seq', 1, false);
+SELECT pg_catalog.setval('location_types_id_seq', 18, true);
 
 
 --
@@ -606,6 +689,7 @@ COPY locations (id, name, created_at, updated_at, deleted_at, location_type_id) 
 187	Cao Bằng 	\N	\N	\N	1
 188	Nam Sách	\N	\N	\N	2
 189	Thái Bình	\N	\N	\N	1
+191	test	2017-03-26 14:32:36	2017-03-26 14:32:50	2017-03-26 14:32:50	2
 \.
 
 
@@ -613,7 +697,7 @@ COPY locations (id, name, created_at, updated_at, deleted_at, location_type_id) 
 -- Name: locations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: homestead
 --
 
-SELECT pg_catalog.setval('locations_id_seq', 1, false);
+SELECT pg_catalog.setval('locations_id_seq', 191, true);
 
 
 --
@@ -636,7 +720,7 @@ COPY migrations (id, migration, batch) FROM stdin;
 -- Name: migrations_id_seq; Type: SEQUENCE SET; Schema: public; Owner: homestead
 --
 
-SELECT pg_catalog.setval('migrations_id_seq', 8, true);
+SELECT pg_catalog.setval('migrations_id_seq', 9, true);
 
 
 --
@@ -659,7 +743,7 @@ COPY route_vehicles (id, route_id, vehicle_id, created_at, updated_at, deleted_a
 -- Name: route_vehicles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: homestead
 --
 
-SELECT pg_catalog.setval('route_vehicles_id_seq', 1, false);
+SELECT pg_catalog.setval('route_vehicles_id_seq', 1, true);
 
 
 --
@@ -901,7 +985,7 @@ COPY routes (id, name, cost, source, target, created_at, updated_at, deleted_at)
 -- Name: routes_id_seq; Type: SEQUENCE SET; Schema: public; Owner: homestead
 --
 
-SELECT pg_catalog.setval('routes_id_seq', 1, false);
+SELECT pg_catalog.setval('routes_id_seq', 228, true);
 
 
 --
@@ -917,7 +1001,8 @@ COPY spatial_ref_sys  FROM stdin;
 --
 
 COPY users (id, name, email, password, remember_token, created_at, updated_at) FROM stdin;
-1	pnghai	pnghai@gmail.com	$2y$10$5Nt7jRi92Syg1/kELivyk.57CmQjby.AomNW/WUe24yFSeUTKLCOC	\N	2017-03-25 16:40:16	2017-03-25 16:40:16
+2	Thai Dep Trai	nvthai.fr@gmail.com	$2y$10$E2F86i3WntIOByYDfKuBH.628i6vS7UBDZrnCr21VIc0MDTb2aWzi	\N	2017-03-26 09:32:06	2017-03-26 09:32:06
+1	pnghai	pnghai@gmail.com	$2y$10$5Nt7jRi92Syg1/kELivyk.57CmQjby.AomNW/WUe24yFSeUTKLCOC	VMNssOj6r6aylhmYStRCNgK9ggAEOPEtkXfuK9LRtuarqPUvU7hb3cu0lpPk	2017-03-25 16:40:16	2017-03-25 16:40:16
 \.
 
 
@@ -925,7 +1010,7 @@ COPY users (id, name, email, password, remember_token, created_at, updated_at) F
 -- Name: users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: homestead
 --
 
-SELECT pg_catalog.setval('users_id_seq', 1, true);
+SELECT pg_catalog.setval('users_id_seq', 3, true);
 
 
 --
@@ -933,6 +1018,8 @@ SELECT pg_catalog.setval('users_id_seq', 1, true);
 --
 
 COPY vehicles (id, name, created_at, updated_at, deleted_at) FROM stdin;
+1	Motorbike	2017-03-26 14:09:24	2017-03-26 14:09:24	\N
+2	Car	2017-03-26 14:09:32	2017-03-26 14:09:32	\N
 \.
 
 
@@ -940,7 +1027,7 @@ COPY vehicles (id, name, created_at, updated_at, deleted_at) FROM stdin;
 -- Name: vehicles_id_seq; Type: SEQUENCE SET; Schema: public; Owner: homestead
 --
 
-SELECT pg_catalog.setval('vehicles_id_seq', 1, false);
+SELECT pg_catalog.setval('vehicles_id_seq', 3, true);
 
 
 --
