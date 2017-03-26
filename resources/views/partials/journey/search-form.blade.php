@@ -1,7 +1,7 @@
 <form action="{{ route('journey') }}">
     <div class="form-group">
         <label for="source">From</label>
-        <select class="form-control sl2 w-100" id="source" name="source">
+        <select class="form-control sl2 w-100" id="source" name="source" data-width="100%" >
             @foreach ($locations as $location)
                 <option
                         value="{{$location->id}}"
@@ -16,7 +16,7 @@
     </div>
     <div class="form-group">
         <label for="target">To</label>
-        <select class="form-control sl2 w-100" id="target" name="target">
+        <select class="form-control sl2 w-100" id="target" name="target" data-width="100%" >
             @foreach ($locations as $location)
                 <option
                     value="{{$location->id}}"
@@ -32,7 +32,7 @@
     <fieldset disabled>
         <div class="form-group">
             <label for="journey">(Or Select Recent Journey)</label>
-            <select class="form-control sl2" id="journey" name="journey">
+            <select class="form-control sl2" id="journey" name="journey" data-width="100%" >
                 <option>Journey 1</option>
                 <option>Journey 2</option>
             </select>

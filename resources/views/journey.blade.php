@@ -47,7 +47,11 @@
                                             </h5>
                                         </div>
 
-                                        <div id="route-{{$edge->path_id}}" class="collapse" role="tabpanel"
+                                        <div id="route-{{$edge->path_id}}" class="collapse
+                                        @if ($edge->path_id==1)
+                                                show
+                                        @endif
+" role="tabpanel"
                                              aria-labelledby="heading-{{$edge->path_id}}">
                                             <div class="card-block">
                                                 @endif
