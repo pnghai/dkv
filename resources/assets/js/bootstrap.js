@@ -12,9 +12,7 @@ window.$ = window.jQuery = require('jquery');
 import tether from 'tether';
 global.Tether = tether;
 
-require('bootstrap/js/src/collapse');
-require('bootstrap/js/src/dropdown');
-require('bootstrap/js/src/util');
+require('bootstrap');
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces

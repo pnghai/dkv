@@ -11,26 +11,29 @@
             </div>
             <div class="col-sm-7 col-md-8 col-lg-9 p-3">
                 <div class="row">
-                    <div class="col-lg-4 p-3">
-                        @foreach ($routes as $edge)
-                            @if ($edge->agg_cost==0)
-                                <div class="clearfix route-result d-flex">
-                                    <a href="#route-{{$edge->path_id}}" data-toggle="collapse" data-parent="#accordion"
-                                       aria-expanded="false" aria-controls="route-{{$edge->path_id}}">>
-                                        <span class="node pull-left mr-3">
-                                            From {{$source->name}}
-                                        </span>
-                                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                                        to <span class="node pull-left mr-3">
-                                            {{$target->name}}
-                                        </span>
-                                        @endif
-                                        @if ($edge->edge===-1)
-                                    </a>
-                                    <div class="pull-right">{{$edge->agg_cost}} Km</div>
-                                </div>
-                            @endif
-                        @endforeach
+                    <div class="col-lg-4 pr-lg-0">
+                        <ul class="list-group">
+                            @foreach ($routes as $edge)
+                                @if ($edge->agg_cost==0)
+                                    <li class="list-group-item route-result justify-content-between">
+                                        <a href="#route-{{$edge->path_id}}" data-toggle="collapse"
+                                           data-parent="#accordion"
+                                           aria-expanded="false" aria-controls="route-{{$edge->path_id}}">
+                                    <span class="node">
+                                        {{$source->name}}
+                                    </span>
+                                            <i class="icon ion-chevron-right" aria-hidden="true"></i>
+                                            <span class="node">
+                                        {{$target->name}}
+                                    </span>
+                                            @endif
+                                            @if ($edge->edge===-1)
+                                        </a>
+                                        <div>{{$edge->agg_cost}} Km</div>
+                                    </li>
+                                @endif
+                            @endforeach
+                        </ul>
                     </div>
                     <div class="col-lg-8">
                         <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -47,17 +50,18 @@
                                             </h5>
                                         </div>
 
-                                        <div id="route-{{$edge->path_id}}" class="collapse
-                                        @if ($edge->path_id==1)
-                                                show
-                                        @endif
-" role="tabpanel"
-                                             aria-labelledby="heading-{{$edge->path_id}}">
-                                            <div class="card-block">
+                                        <div id="route-{{$edge->path_id}}" class="collapse @if ($edge->path_id==1) show @endif " role="tabpanel" aria-labelledby="heading-{{$edge->path_id}}">
+                                            <div class="card-block route-list">
                                                 @endif
-                                                <div>
-                                                    {{$edge->source_name}}
-                                                    <div class="route-name">{{$edge->route_name}} ({{$edge->cost}} Km)</div>
+                                                <div class="route-item clearfix @if ($edge->edge==-1) last @endif ">
+                                                    <div class="route-item-source">
+                                                        <div class="circle"><i class="icon ion-location"></i></div> {{$edge->source_name}}</div>
+
+                                                    @if ($edge->cost!=0)
+                                                        <div class="route-item-name">{{$edge->route_name}}
+                                                            ({{$edge->cost}}Km)
+                                                        </div>
+                                                    @endif
                                                 </div>
 
                                                 @if ($edge->edge===-1)

@@ -19,16 +19,21 @@ class JourneyController extends Controller
         $source = $request->input('source');
         $target = $request->input('target');
 
-        $routes = DB::select(DB::raw("SELECT results.*, Sources.name as source_name, Routes.name as route_name
+        $routes = DB::select(DB::raw("SELECT
+              results.*,
+              Sources.name AS source_name,
+              Routes.name  AS route_name,
+              LT.name AS source_type
             FROM pgr_ksp(
-                'SELECT id, source, target, cost FROM routes',
-                :source,
-                :target,
-                5,
-                directed:=false
-            ) AS results
-            LEFT JOIN locations AS Sources ON Sources.id = results.node
-            LEFT JOIN routes as Routes ON results.edge = Routes.id"),
+                     'SELECT id, source, target, cost FROM routes',
+                     :source,
+                     :target,
+                     5,
+                     directed := FALSE
+                 ) AS results
+              LEFT JOIN locations AS Sources ON Sources.id = results.node
+              LEFT JOIN location_types AS LT ON LT.id = Sources.location_type_id
+              LEFT JOIN routes AS Routes ON (results.edge = Routes.id)"),
             array(
                 'source'=>$source,
                 'target'=>$target

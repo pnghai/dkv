@@ -8,7 +8,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
         <link href="{!! asset('css/app.css') !!}" media="all" rel="stylesheet" type="text/css" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
      <div class="d-flex flex-column full-height h-100" id="app">

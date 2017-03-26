@@ -3,4 +3,47 @@
     .node{
     }
   }
+  .route-list{
+    .route-item{
+      &-source{
+        position: relative;
+        line-height: $grid-gutter-width-base;
+        .circle{
+          float:left;
+          border-radius:50%;
+          height:$grid-gutter-width-base;
+          width:$grid-gutter-width-base;
+          margin-right: ($grid-gutter-width-base/4);
+          background-color: $brand-primary;
+          text-align: center;
+          .icon{
+            line-height: 32px;
+            margin:0 auto;
+          }
+        }
+      }
+      &:not(.last){
+        .route-item-source:before{
+          position: absolute;
+          top: 100%;
+          left:  ($grid-gutter-width-base/2);
+          content:" ";
+          height: 32px;
+          border-left: 2px solid $brand-primary;
+        }
+      }
+      &-name{
+        padding-left: ($grid-gutter-width-base*1.5);
+        position: relative;
+        &:before{
+          position: absolute;
+          top: 50%;
+          left: ($grid-gutter-width-base/2);
+          width: $grid-gutter-width-base;
+          border-top: 2px solid $brand-primary;
+          content: " ";
+        }
+      }
+    }
+  }
 }
