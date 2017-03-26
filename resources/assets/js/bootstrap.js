@@ -9,6 +9,9 @@ window._ = require('lodash');
 
 window.$ = window.jQuery = require('jquery');
 
+import tether from 'tether';
+global.Tether = tether;
+
 require('bootstrap');
 
 /**
