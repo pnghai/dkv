@@ -13,7 +13,7 @@
     <body>
      <div class="d-flex flex-column full-height h-100" id="app">
          @include('partials.header')
-         <div class="viewport d-flex flex-row">
+         <div class="viewport d-sm-flex flex-row">
              @yield('content')
          </div>
      </div>

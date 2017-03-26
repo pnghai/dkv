@@ -6,7 +6,7 @@
 @section('content')
     <div class="container-fluid viewport">
         <div class="row align-items-center h-100 justify-content-md-center">
-            <div class="mw340">
+            <div class="mw340 p-3">
                 @include('partials.journey.search-form');
             </div>
         </div>

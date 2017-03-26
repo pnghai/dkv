@@ -23,6 +23,7 @@
           <li><a href="{{ url('admin/location') }}"><i class="fa fa-tag"></i> <span>Manage Locations</span></a></li>
           <li><a href="{{ url('admin/locationtype') }}"><i class="fa fa-tag"></i> <span>Manage Location Types</span></a></li>
           <li><a href="{{ url('admin/route') }}"><i class="fa fa-tag"></i> <span>Manage Routes</span></a></li>
+          <li><a href="{{ url('admin/vehicle') }}"><i class="fa fa-tag"></i> <span>Manage Vehicles</span></a></li>
           <li><a href="{{ url('admin/routevehicle') }}"><i class="fa fa-tag"></i> <span>Manage Route Vehicles</span></a></li>
           <li><a href="{{ url(config('backpack.base.route_prefix', 'admin') . '/elfinder') }}"><i class="fa fa-files-o"></i> <span>File manager</span></a></li>
 

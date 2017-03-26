@@ -1718,6 +1718,15 @@ class LocationsTableSeeder extends Seeder
                 'deleted_at' => NULL,
                 'location_type_id' => 1,
             ),
+            189 => 
+            array (
+                'id' => 191,
+                'name' => 'test',
+                'created_at' => '2017-03-26 14:32:36',
+                'updated_at' => '2017-03-26 14:32:50',
+                'deleted_at' => '2017-03-26 14:32:50',
+                'location_type_id' => 2,
+            ),
         ));
         
         

@@ -19,21 +19,13 @@ class LocationTypesTableSeeder extends Seeder
         \DB::table('location_types')->insert(array (
             0 => 
             array (
-                'id' => 1,
-                'name' => 'TP',
-                'created_at' => NULL,
-                'updated_at' => NULL,
-                'deleted_at' => NULL,
-            ),
-            1 => 
-            array (
                 'id' => 2,
                 'name' => 'Thị Trấn',
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            2 => 
+            1 => 
             array (
                 'id' => 3,
                 'name' => 'Thủ Đô',
@@ -41,7 +33,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            3 => 
+            2 => 
             array (
                 'id' => 4,
                 'name' => 'Thị Xã',
@@ -49,7 +41,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            4 => 
+            3 => 
             array (
                 'id' => 5,
                 'name' => 'Huyện',
@@ -57,7 +49,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            5 => 
+            4 => 
             array (
                 'id' => 6,
                 'name' => 'Chưa xác định',
@@ -65,7 +57,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            6 => 
+            5 => 
             array (
                 'id' => 7,
                 'name' => 'Sân Bay',
@@ -73,7 +65,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            7 => 
+            6 => 
             array (
                 'id' => 8,
                 'name' => 'Xã',
@@ -81,7 +73,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            8 => 
+            7 => 
             array (
                 'id' => 9,
                 'name' => 'Điểm Cực Bắc',
@@ -89,7 +81,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            9 => 
+            8 => 
             array (
                 'id' => 10,
                 'name' => 'Ngã Ba',
@@ -97,7 +89,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            10 => 
+            9 => 
             array (
                 'id' => 11,
                 'name' => 'Di tích',
@@ -105,7 +97,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            11 => 
+            10 => 
             array (
                 'id' => 12,
                 'name' => 'Cửa Khẩu',
@@ -113,7 +105,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            12 => 
+            11 => 
             array (
                 'id' => 13,
                 'name' => 'Điểm Du Lịch',
@@ -121,7 +113,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            13 => 
+            12 => 
             array (
                 'id' => 14,
                 'name' => 'Thôn',
@@ -129,7 +121,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            14 => 
+            13 => 
             array (
                 'id' => 15,
                 'name' => 'Điểm Cực Tây',
@@ -137,7 +129,7 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            15 => 
+            14 => 
             array (
                 'id' => 16,
                 'name' => 'Di Tích',
@@ -145,12 +137,20 @@ class LocationTypesTableSeeder extends Seeder
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
             ),
-            16 => 
+            15 => 
             array (
                 'id' => 17,
                 'name' => 'Địa Danh',
                 'created_at' => NULL,
                 'updated_at' => NULL,
+                'deleted_at' => NULL,
+            ),
+            16 => 
+            array (
+                'id' => 1,
+                'name' => 'Thành phố',
+                'created_at' => NULL,
+                'updated_at' => '2017-03-26 11:10:44',
                 'deleted_at' => NULL,
             ),
         ));
